@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  padding: 75px 25px;
+  background-color: hsl(210, 46%, 95%);
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  color: hsl(214, 17%, 51%);
+}
+
+.main-container{
+  margin: 0 auto;
+  max-width: 325px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.hero-image-container{
+  height: 200px;
+  background-image: url("images/drawers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 35px;
+}
+
+/* .hero-image{
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+} */
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text{
+  margin: 0 25px 15px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: .5px;
+  color: hsl(217, 19%, 35%);
+}
+
+.description{
+  margin: 0 25px 30px;
+  font-size: .9rem;
+  line-height: 1.6;
+  letter-spacing: -.2px;
+}
+
+.author-container{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.author-picture{
+  margin-left: 25px;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+}
+
+.footer-flex{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.author-name{
+  margin: 2.5px 0 2.5px 15px;
+  font-size: .8rem;
+  letter-spacing: .5px;
+  color: hsl(217, 19%, 35%);
+}
+
+.post-date{
+  margin: 0 15px;
+  font-size: .8rem;
+  letter-spacing: .5px;
+}
+
+.share-icon{
+  position: relative;
+  margin: auto  35px auto auto;
+  padding: 10px;
+  width: 15px;
+  height: 13px;
+  border-radius: 100%;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.share{
+  visibility: hidden;
+}
+
+.share p{
+  letter-spacing: 1.5;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
